@@ -1,0 +1,37 @@
+/* --- Google Font URL --- */
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+/* --- Basic styles --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: fastscroll;
+}
+body {
+  font-family: "Josefin Sans", sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+// --- Reuseable Styles ---
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* --- Mobile nav Slide Effect start --- */
+.overly-effect {
+  @apply text-center text-white py-5 z-50 fixed inset-0 bg-[rgba(251,46,134,0.9)] transition-transform duration-500 ease-in-out;
+  transform: translateX(-100%);
+}
+
+.overly-effect.open {
+  transform: translateX(0);
+}
+
+.overly-effect.close {
+  transform: translateX(-100%);
+}
+/* --- Mobile nav Slide Effect end --- */
