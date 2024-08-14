@@ -1,4 +1,3 @@
-import "./mainNav.scss";
 import nav_logo from "../../../assets/image/nav-logo.png";
 import { Link } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
@@ -10,7 +9,7 @@ const MainNav = () => {
   const [toggleMobileMenu, setToggleMobileMenu] = useState<boolean>(false);
 
   return (
-    <nav className="bg-white py-5 text-[#0d0e43]">
+    <nav className="sticky top-0 z-50 w-full bg-white py-4 text-[#0d0e43] shadow-sm">
       <div className="wrapper">
         <div className="flex justify-center">
           <div className="w-[1000px] flex items-center justify-between px-[10px] lg:px-0">

@@ -15,7 +15,7 @@ const MobileNav = ({ toggleMobileMenu, setToggleMobileMenu }: Props) => {
         onClick={() => setToggleMobileMenu(!toggleMobileMenu)}
         className="flex justify-end"
       >
-        <ImCross className="text-2xl cursor-pointer text-[#0d0e43] mr-[12px] mt-[5px]" />
+        <ImCross className="text-2xl cursor-pointer text-[#0d0e43] mr-[12px] mt-[3px]" />
       </div>
       <div>
         <ul className="flex flex-col items-center gap-5 py-10 text-[#0d0e43] text-xl font-semibold h-full">
@@ -44,7 +44,7 @@ const MobileNav = ({ toggleMobileMenu, setToggleMobileMenu }: Props) => {
             </div>
           </li>
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
-            <div className="flex items-center justify-center gap-2 mt-2">
+            <div className="flex items-center justify-center gap-2">
               <IoIosCall className="text-xl" />
               <span>(12345)67890</span>
             </div>
