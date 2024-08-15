@@ -5,3 +5,12 @@ export interface FeatureProduct {
   productCode: string;
   price: number;
 }
+
+// --- latest product ---
+export interface LatestProduct {
+  img: string;
+  productName: string;
+  price: number;
+  discountPrice: number;
+  filterKey: string[];
+}

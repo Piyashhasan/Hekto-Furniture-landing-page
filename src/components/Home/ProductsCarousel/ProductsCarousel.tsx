@@ -40,7 +40,7 @@ const ProductsCarousel = () => {
     ],
   };
   return (
-    <div className="slider-container">
+    <section className="slider-container">
       <Slider {...settings}>
         {featureProducts.map((product, index) => {
           return (
@@ -70,7 +70,7 @@ const ProductsCarousel = () => {
           );
         })}
       </Slider>
-    </div>
+    </section>
   );
 };
 
