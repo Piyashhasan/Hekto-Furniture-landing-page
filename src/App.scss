@@ -35,3 +35,42 @@ body {
   }
 }
 /* --- Mobile nav Slide Effect end --- */
+
+// --- Feature Product slider start ---
+.slider-container {
+  .slick-slider {
+    // make space between two product card
+    .slick-track {
+      display: flex !important;
+      gap: 18px !important;
+      margin-top: 50px;
+      margin-bottom: 30px;
+    }
+
+    // next preview button hide
+    .slick-prev,
+    .slick-next {
+      display: none !important;
+    }
+
+    // bottom active dot color change
+    .slick-dots {
+      li {
+        button {
+          &:before {
+            font-size: 8px !important;
+          }
+        }
+        &.slick-active {
+          button {
+            &:before {
+              opacity: 0.75;
+              color: #f5066d !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// --- Feature Product slider end ---
