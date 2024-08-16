@@ -9,15 +9,13 @@ const FilterButton = ({ btnActive, handleFilterProducts }: Props) => {
       <div className="flex flex-row flex-wrap items-center justify-center gap-x-10 gap-y-2 text-[#1A0B5B] font-semibold">
         <button
           onClick={() => handleFilterProducts("all")}
-          className={`py-1 border-b-2 border-white cursor-pointer lg:hover:border-b-2 lg:hover:border-[#FB2E86] lg:hover:text-[#FB2E86] ${
-            btnActive === "all" ? "active" : null
-          }`}
+          className={`filter-button ${btnActive === "all" ? "active" : null}`}
         >
           All
         </button>
         <button
           onClick={() => handleFilterProducts("newArrival")}
-          className={`py-1 border-b-2 border-white cursor-pointer lg:hover:border-b-2 lg:hover:border-[#FB2E86] lg:hover:text-[#FB2E86] ${
+          className={`filter-button ${
             btnActive === "newArrival" ? "active" : null
           }`}
         >
@@ -25,7 +23,7 @@ const FilterButton = ({ btnActive, handleFilterProducts }: Props) => {
         </button>
         <button
           onClick={() => handleFilterProducts("bestSeller")}
-          className={`py-1 border-b-2 border-white cursor-pointer lg:hover:border-b-2 lg:hover:border-[#FB2E86] lg:hover:text-[#FB2E86] ${
+          className={`filter-button ${
             btnActive === "bestSeller" ? "active" : null
           }`}
         >
@@ -33,7 +31,7 @@ const FilterButton = ({ btnActive, handleFilterProducts }: Props) => {
         </button>
         <button
           onClick={() => handleFilterProducts("featured")}
-          className={`py-1 border-b-2 border-white cursor-pointer lg:hover:border-b-2 lg:hover:border-[#FB2E86] lg:hover:text-[#FB2E86] ${
+          className={`filter-button ${
             btnActive === "featured" ? "active" : null
           }`}
         >
@@ -41,7 +39,7 @@ const FilterButton = ({ btnActive, handleFilterProducts }: Props) => {
         </button>
         <button
           onClick={() => handleFilterProducts("specialOffer")}
-          className={`py-1 border-b-2 border-white cursor-pointer lg:hover:border-b-2 lg:hover:border-[#FB2E86] lg:hover:text-[#FB2E86] ${
+          className={`filter-button ${
             btnActive === "specialOffer" ? "active" : null
           }`}
         >

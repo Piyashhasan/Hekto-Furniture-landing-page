@@ -3,7 +3,7 @@ import ProductsCategoryFilter from "../ProductsCategoryFilter/ProductsCategoryFi
 const LatestProducts = () => {
   return (
     <section className="wrapper">
-      <div className="py-[90px] px-[10px] lg:px-0">
+      <div className="latest-products py-[90px] px-[10px] lg:px-0">
         <h2 className="text-[32px] text-[#1A0B5B] text-center font-bold leading-[38px] sm:text-[36px] md:text-[40px]">
           Latest Products
         </h2>

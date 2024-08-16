@@ -34,7 +34,6 @@ body {
     transform: translateX(-100%);
   }
 }
-/* --- Mobile nav Slide Effect end --- */
 
 // --- Feature Product slider start ---
 .slider-container {
@@ -73,17 +72,19 @@ body {
     }
   }
 }
-// --- Feature Product slider end ---
 
-// --- latest Product category active indication ---
-.active {
-  border-bottom: 2px solid #fb2e86 !important;
-  color: #fb2e86;
-}
-
-// --- Latest Product animation ---
+// --- Latest Product section start ---
 .latest-products {
-  .fade-in {
+  .filter-button {
+    @apply py-1 border-b-2 border-white cursor-pointer lg:hover:border-b-2 lg:hover:border-[#FB2E86] lg:hover:text-[#FB2E86];
+
+    &.active {
+      border-bottom: 2px solid #fb2e86 !important;
+      color: #fb2e86;
+    }
+  }
+
+  .filtering-animation {
     opacity: 0;
     transform: translateY(-10px);
     animation: fadeIn 500ms forwards ease-in-out;
