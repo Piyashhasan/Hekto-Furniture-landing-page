@@ -14,3 +14,10 @@ export interface LatestProduct {
   discountPrice: number;
   filterKey: string[];
 }
+
+// --- shopex offer card ---
+export interface ShopexOfferItem {
+  img: string;
+  title: string;
+  description: string;
+}
