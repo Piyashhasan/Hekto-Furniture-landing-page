@@ -1,5 +1,6 @@
 import Banner from "../../components/Home/Banner/Banner";
 import FeatureProducts from "../../components/Home/FeatureProducts/FeatureProducts";
+import Footer from "../../components/Home/Footer/Footer";
 import LatestProducts from "../../components/Home/LatestProducts/LatestProducts";
 import MainNav from "../../components/Home/MainNav/MainNav";
 import ShopexOffer from "../../components/Home/ShopexOffer/ShopexOffer";
@@ -18,6 +19,7 @@ const Home = () => {
       <ShopexOffer />
       <UniqueFeature />
       <TrendingProducts />
+      <Footer />
     </>
   );
 };

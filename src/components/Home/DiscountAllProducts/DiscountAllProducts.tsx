@@ -8,7 +8,7 @@ import trendMiniThree from "../../../assets/image/trending-product/trend-mini-th
 const DiscountAllProducts = () => {
   return (
     <section className="wrapper">
-      <div className="py-[90px] px-[10px] xl:px-0">
+      <div className="pt-[90px] px-[10px] xl:px-0">
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
           <div className="w-full bg-[#FFF6FB] shadow-[0px_7px_29px_0px_rgba(100,100,111,0.2)]">
             <div className="px-5 py-8">
