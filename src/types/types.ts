@@ -21,3 +21,11 @@ export interface ShopexOfferItem {
   title: string;
   description: string;
 }
+
+// --- trending product ---
+export interface TrendingProduct {
+  img: string;
+  productName: string;
+  price: number;
+  discountPrice: number;
+}
