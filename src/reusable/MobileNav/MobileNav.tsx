@@ -15,7 +15,7 @@ const MobileNav = ({ toggleMobileMenu, setToggleMobileMenu }: Props) => {
         onClick={() => setToggleMobileMenu(!toggleMobileMenu)}
         className="flex justify-end"
       >
-        <ImCross className="text-2xl cursor-pointer text-[#0d0e43] mr-[12px] mt-[3px]" />
+        <ImCross className="text-2xl cursor-pointer text-[#0d0e43] mr-[13px] mt-[-1px]" />
       </div>
       <div>
         <ul className="flex flex-col items-center gap-5 py-10 text-[#0d0e43] text-xl font-semibold h-full">

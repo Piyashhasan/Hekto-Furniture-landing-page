@@ -1,4 +1,5 @@
 import Banner from "../../components/Home/Banner/Banner";
+import BottomFooter from "../../components/Home/BottomFooter/BottomFooter";
 import FeatureProducts from "../../components/Home/FeatureProducts/FeatureProducts";
 import Footer from "../../components/Home/Footer/Footer";
 import LatestProducts from "../../components/Home/LatestProducts/LatestProducts";
@@ -20,6 +21,7 @@ const Home = () => {
       <UniqueFeature />
       <TrendingProducts />
       <Footer />
+      <BottomFooter />
     </>
   );
 };
