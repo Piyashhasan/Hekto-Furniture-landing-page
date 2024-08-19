@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { ImCross } from "react-icons/im";
 import { FaRegEnvelope } from "react-icons/fa6";
 import { IoIosCall } from "react-icons/io";
@@ -20,22 +19,25 @@ const MobileNav = ({ toggleMobileMenu, setToggleMobileMenu }: Props) => {
       <div>
         <ul className="flex flex-col items-center gap-5 py-10 text-[#0d0e43] text-xl font-semibold h-full">
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
-            <Link to="#">Home</Link>
+            <a href="#banner">Home</a>
           </li>
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
-            <Link to="#">Pages</Link>
+            <a href="#featured-products">Feature</a>
           </li>
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
-            <Link to="#">Products</Link>
+            <a href="#latest-products">Latest</a>
           </li>
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
-            <Link to="#">Blog</Link>
+            <a href="#offers">Offers</a>
           </li>
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
-            <Link to="#">Shop</Link>
+            <a href="#unique">Unique</a>
           </li>
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
-            <Link to="#">Contact</Link>
+            <a href="#trending">Trending</a>
+          </li>
+          <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
+            <a href="#footer">Contact</a>
           </li>
           <li onClick={() => setToggleMobileMenu(!toggleMobileMenu)}>
             <div className="flex items-center justify-center gap-2">

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const TopNav = () => {
   return (
-    <nav className="w-full bg-[#7E33E0] text-white hidden md:block">
+    <nav id="home" className="w-full bg-[#7E33E0] text-white hidden md:block">
       <div className="wrapper">
         <div className="flex justify-center items-center">
           <div className="w-[1000px] flex flex-wrap justify-between items-center py-2 px-[10px] lg:px-0">

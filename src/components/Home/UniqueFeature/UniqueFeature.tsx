@@ -2,7 +2,7 @@ import uniqueFeatureImg from "../../../assets/image/unique-feture-img.png";
 
 const UniqueFeature = () => {
   return (
-    <section className="bg-[#F1F0FF]">
+    <section id="unique" className="bg-[#F1F0FF]">
       <div className="wrapper">
         <div className="py-[90px] px-[10px] xl:px-0">
           <div className="grid grid-cols-1 gap-3 items-center lg:grid-cols-2">

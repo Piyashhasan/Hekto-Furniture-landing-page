@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <section className="bg-[#EEEFFB]">
+    <section id="footer" className="bg-[#EEEFFB]">
       <footer className="wrapper">
         <div className="py-[90px] px-[10px] xl:px-0">
           <div className="flex flex-wrap gap-x-5 gap-y-10 justify-between">

@@ -1,5 +1,4 @@
 import nav_logo from "../../../assets/image/nav-logo.png";
-import { Link } from "react-router-dom";
 import { IoSearch } from "react-icons/io5";
 import MobileNav from "../../../reusable/MobileNav/MobileNav";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -16,25 +15,28 @@ const MainNav = () => {
             <div>
               <img src={nav_logo} alt="Brand Logo" />
             </div>
-            <div className="hidden md:block">
+            <div className="hidden lg:block">
               <ul className="flex flex-row items-center gap-5">
                 <li className="hover:text-[#FB2E86]">
-                  <Link to="#">Home</Link>
+                  <a href="#home">Home</a>
                 </li>
                 <li className="hover:text-[#FB2E86]">
-                  <Link to="#">Pages</Link>
+                  <a href="#featured-products">Feature</a>
                 </li>
                 <li className="hover:text-[#FB2E86]">
-                  <Link to="#">Products</Link>
+                  <a href="#latest-products">Latest</a>
                 </li>
                 <li className="hover:text-[#FB2E86]">
-                  <Link to="#">Blog</Link>
+                  <a href="#offers">Offers</a>
                 </li>
                 <li className="hover:text-[#FB2E86]">
-                  <Link to="#">Shop</Link>
+                  <a href="#unique">Unique</a>
                 </li>
                 <li className="hover:text-[#FB2E86]">
-                  <Link to="#">Contact</Link>
+                  <a href="#trending">Trending</a>
+                </li>
+                <li className="hover:text-[#FB2E86]">
+                  <a href="#footer">Contact</a>
                 </li>
               </ul>
             </div>
@@ -51,7 +53,7 @@ const MainNav = () => {
             </div>
 
             <div
-              className="md:hidden"
+              className="lg:hidden"
               onClick={() => setToggleMobileMenu(!toggleMobileMenu)}
             >
               <GiHamburgerMenu className="text-3xl cursor-pointer text-[#0d0e43" />

@@ -4,7 +4,7 @@ import dotImg from "../../../assets/image/dot.png";
 
 const Banner = () => {
   return (
-    <main className="w-full bg-[#F2F0FF]">
+    <main id="banner" className="w-full bg-[#F2F0FF]">
       <div className="wrapper relative py-[55px]">
         {/* --- banner main content start --- */}
         <div className="flex items-center justify-center py-10">
